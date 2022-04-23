@@ -1,18 +1,14 @@
 body {
-
     background-color:#36464d;
     overflow-y: hidden;
     overflow-x: hidden;
     margin: 0px;
 }
 .topnav {
-    overflow: hidden;
     background-color: #36464d;
-    min-height: 4vh;
-    display: flex;
-    justify-content: flex-start;
+    display: fixed;
     flex-flow: row wrap;
-    align-items: flex-start;
+    justify-content: flex-start;
     width: 100%;
   }
   
@@ -27,6 +23,12 @@ body {
     transition: all 0.4s ease 0s; 
   }
 
+  .glas img {
+    height: 2rem;
+    width: auto;
+    align-self: flex-end;
+  }
+
   .topnav input[type=text] {
     float: right;
     padding: 6px;
@@ -35,6 +37,7 @@ body {
     margin-right: 16vw;
     font-size: 17px;
     font-family:'Noto Sans JP', sans-serif;
+    align-self: flex-end;
 
   }
   
